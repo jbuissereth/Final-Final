@@ -1,0 +1,68 @@
+html{
+	margin: 0:
+	}
+body{
+	margin: 0;
+	}
+h1 {
+	text-align: center;
+	font-size: 2em;	
+	line-height: 2.3;
+	}
+ h5 {
+ margin: 0;
+ padding: .5em 0;
+ text-align: center;
+ background: black;
+ color: white;
+ }
+ 
+
+#fig-1 {
+ 
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+	background: #fff;
+	margin: 0
+  }
+#fig-1 img{
+	margin: 
+	width: auto;
+	max-width: 100%;
+	height: 20em;
+	width: auto;
+	}
+h3 {
+color:white;
+background: white;
+
+}
+
+.col-half {
+ margin: 0 auto;
+ width: 90%;
+ max-width: 40em;
+  }
+  
+
+
+/* breakpoints/layout changes/ for wider screens */
+
+@media (min-width: 48em) {
+
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
